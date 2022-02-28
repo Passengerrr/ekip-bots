@@ -1,2 +1,2 @@
-# ekip-bots
-Toplama Ekip Bot
+# 30 STAR 10 FORKDA DİREK GELİYO
+ÇOK İYİ SİSTEM HA :)
