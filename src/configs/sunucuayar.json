@@ -1,0 +1,138 @@
+{
+  "staffs": [
+    "982540398314545164"
+  ],
+  "erkekRolleri": [
+    "982540430921064491","982540430161870869"
+  ],
+  "kizRolleri": [
+    "982540427624349747","982540428622585877"
+  ],
+  "yetkiRolleri": [
+    "982540398314545164"
+
+  ],
+  "teyitciRolleri": [
+    "982540398314545164"
+  ],
+  "ekipRolu": [
+    "982540417574789161"
+  ],
+  "sahipRolu": [
+    "982540356098859079",
+    "982540362017038396"  
+  ],
+  "unregRoles": [
+    "982540432187740230"
+  ],
+  "boosterRolu": "980077323871207455",
+  "warnHammer": [
+    "982540396720685066"
+  ],
+  "banHammer": [
+    "982540394984247356"
+  ],
+  "jailHammer": [
+   "982540399438598154"
+  ],
+  "cmuteHammer": [
+   "982540401061802036"
+  ],
+  "vmuteHammer": [
+    "982540401061802036"
+  ],
+  "tag": "†",
+  "tags": "",
+  "tags2": "",
+  "tags3": "",
+  "tags4": "",
+  "tags5": "",
+  "tags6": "",
+  "tags7": "",
+  "etikets": "",
+  "ikinciTag": "•",
+  "jailRole": [
+    "982540439880089630"
+  ],
+  "yasaktagRole": [
+    "982540438001057802"
+  ],
+  "chatMute": [
+    "982540449816403968"
+  ],
+  "voiceMute": [
+    "982540450638487552"
+  ],
+  "fakeAccRole": [
+    "982540436050677770"
+  ],
+  "rolverici": [
+   
+  ],
+  "ytalım": [
+"982540367507390465"
+],
+
+    "ChatMsgListID": "982566956748111922",
+    "VoiceMsgListID": "982566992110301224",
+    "ChatLeaderBoard": "982540510965153792",
+    "VoiceLeaderBoard": "982540510965153792",
+
+
+  "Yetkili": true,
+
+  "katildiRole": "982540449023684608",
+  "mazaretliRole": "",
+  "uyariRole": "",
+  "enAltYetkiliRole": "982540392958414848",
+
+  "chatChannel": "855159789801570325",
+  "teyitKanali": "982540513125228544",
+  "messageLogChannel": "982540597367803934",
+  "voiceLogChannel": "982540598441549854",
+  "ekipLogChannel": "982540599372677170",
+  "invLogChannel": "982540515482419220",
+  "rankLog": "982540600601608192",
+  "banLogChannel": "982540607543214091",
+  "jailLogChannel": "982540606658203659",
+  "cmuteLogChannel": "982540608755347456",
+  "vmuteLogChannel": "982540609954938921",
+  "warnLogChannel": "982540606658203659",
+  "botses": "982540509983703070",
+  "kurallar": "849035005241982976",
+  "marketLog": "982540602270941194",
+  "cezapuanlog": "982540596319236146",
+  "rollogchannel": "982540603369869362",
+  "toplantiSesChannel": "982540516476485682",
+  "mazaretliLogChannel": "",
+
+  "yetkiLog": "982629952388235314",
+  "iliskirolalmakanal": "",
+  "vipRole": "982540419697106984",
+  "dcsorumlu": "",
+  "dcdenetleyici": "",
+  "dccezalı": "",
+  "komutLog" : "982540595207766036", 
+  "musician": "982540423287406612",
+  "soruncozucu": "",
+  "streamer": "982540422322716682",
+  "tasarımcı": "",
+  "publicParents": [
+    "982540496486420480"
+  ],
+  "registerParents": [
+    "982540488643051550"
+  ],
+  "solvingParents": [
+  ""
+  ],
+  "privateParents": [
+    "982540499988672522"
+  ],
+  "aloneParents": [
+    "982540500903006218"
+  ],
+  "funParents": [
+    "982540502727536681"
+  ]
+}

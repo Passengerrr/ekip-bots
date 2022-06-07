@@ -1,0 +1,34 @@
+{
+  "token": "",
+  "prefix": [".","!","s!"],
+  "guildID": "980077177318047784",
+  "mongoUrl": "MONCO_LİNKİNİZ",
+  "owners": ["798257622033367070"],
+  "botDurum": "Developed By Passenger",
+  "botSes": "982540509983703070",
+  "registerPerm": "982540398314545164",
+
+  "dmMessages": true,
+
+  "messageDolar": 1,
+  "voiceDolar": 1,
+
+
+  "messageCount": 1,
+  "messageCoin": 2,
+  "voiceCount": 1,
+  "voiceCoin": 4,
+  "publicCoin": 4,
+  "inviteCount": 1,
+  "inviteCoin": 15,
+  "taggedCoin": 25,
+  "toplamsCoin": 5.5,
+  "yetkiCoin": 30,
+
+ 
+  "banlimit": 3,
+  "jaillimit": 3,
+  "warnlimit": 3,
+  "chatmutelimit": 3,
+  "voicemutelimit": 3
+}

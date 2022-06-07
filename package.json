@@ -1,0 +1,36 @@
+{
+  "name": "passenger-supervizor",
+  "version": "0.0.1",
+  "description": "passenger supervisor.",
+  "main": "passenger.js",
+  "scripts": {
+    "start": "node passenger.js"
+  },
+  "dependencies": {
+    "ark.db": "^2.6.1",
+    "axios": "^0.24.0",
+    "canvas": "^2.8.0",
+    "canvas-constructor": "^4.1.0",
+    "chartjs-node-canvas": "^3.2.0",
+    "cron": "^1.8.2",
+    "discord-buttons": "^4.0.0",
+    "discord-logs": "^1.9.0",
+    "discord-reply": "^0.1.2",
+    "discord.js": "^12.5.3",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "moment-duration-format": "^2.3.2",
+    "mongoose": "^5.11.20",
+    "parse-ms": "^2.1.0",
+    "weky": "^2.0.7",
+    "table": "^5.4.6"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "license": "MIT",
+  "keywords": [
+    "passenger",
+    "Supervisor"
+  ]
+}
