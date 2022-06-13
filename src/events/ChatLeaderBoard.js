@@ -19,10 +19,8 @@ module.exports = async () => {
   let Chat = new MessageEmbed()
   Chat.setColor("BLACK")
 
-  Chat.setAuthor(`Mesaj Sıralaması | Tüm Zamanlar
-  
-  Güncellenme: <t:${Math.round(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" })) / 1000)}:D>`, client.guilds.cache.get(cfg.guildID).iconURL({dynamic:true}))
-  Chat.setFooter(`Güncellenme: <t:${Math.round(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" })) / 1000)}:D>`)
+  Chat.setAuthor(`Mesaj Sıralaması | Tüm Zamanlar`, client.guilds.cache.get(cfg.guildID).iconURL({dynamic:true}))
+  Chat.setFooter(`Güncellenme: ${moment(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" }))).locale("TR").format("LLL")}`)
   Chat.setDescription(`${msgList}`)
   LeaderBoard.edit(Chat)
 
