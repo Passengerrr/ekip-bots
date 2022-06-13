@@ -176,16 +176,15 @@ client.on("userUpdate", async function(eskiii, yeniii) {
     }
 }
 
-if (newUser.discriminator !== oldUser.discriminator) {
-  if (oldUser.discriminator == etiket && newUser.discriminator !== etiket) {
+if (yeniii.discriminator !== eskiii.discriminator) {
+  if (eskiii.discriminator == "etiketiniz" && yeniii.discriminator !== "etiketiniz") {
+    if (yeniii.username.includes(tag)) return client.channels.cache.get(log2).send(`${yeniii} Etiketimizi tagımızı bıraktı ama hala üzerinde isim tagımızı olduğu için \`Tagges\` rolünü almadım`);
       member.roles.remove(roleID)
-      client.channels.cache.get(log2).send(`${yeniii} etiketinden \`${etiket}\` çıakrtarak ailemizden ayrıldı!`)
-  } else if (oldUser.discriminator !== etiket && newUser.discriminator == etiket) {
+     client.channels.cache.get(log2).send(`${yeniii} etiketimizi çıkartarak ailemizden ayrıldı!`)
+  } else if (eskiii.discriminator !== "etiketiniz" && yeniii.discriminator == "etiketiniz") {
       member.roles.add(roleID)
-      client.channels.cache.get(log2).send(`${yeniii} etiketine \`${etiket}\`alarak ailemize katıldı`)
-   /*   client.channels.cache.get(chat).send(`<a:99_utandm:793369971102580767>Tebrikler, ${newUser} tag alarak ailemize katıldı ona sıcak bir **'Merhaba!'** diyin.(#0099)`)*/
+      client.channels.cache.get(log2).send(`${yeniii} etiketimizi alarak ailemize katıldı`)
   }
-
 }
 ////////////////////////////////////////////////////////////////////////////////////////////////
 if (yeniii.username !== eskiii.username) {
