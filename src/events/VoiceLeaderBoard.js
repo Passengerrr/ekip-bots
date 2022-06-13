@@ -18,9 +18,8 @@ module.exports = async () => {
 
   let MessageEdit = new MessageEmbed()
   MessageEdit.setColor("BLACK")
-  MessageEdit.setAuthor(`Ses Sıralaması | Tüm Zamanlar
-  
-  <t:${Math.round(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" })) / 1000)}:D>`, client.guilds.cache.get(cfg.guildID).iconURL({dynamic:true}))
+  MessageEdit.setAuthor(`Ses Sıralaması | Tüm Zamanlar`, client.guilds.cache.get(cfg.guildID).iconURL({dynamic:true}))
+  MessageEdit.setFooter(`Güncellenme: ${moment(Date.parse(new Date().toLocaleString("tr-TR", { timeZone: "Asia/Istanbul" }))).locale("TR").format("LLL")}`)
   MessageEdit.setDescription(`${voiceList}` )
   LeaderBoard.edit(MessageEdit)
 
